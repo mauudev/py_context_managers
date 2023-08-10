@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "py-context-managers"
+version = "0.1.0"
+description = "Proof of concepts about context managers in Python"
+authors = ["Mau Trigo <mtrigo143@gmail.com>"]
+readme = "README.md"
+packages = [{include = "py_context_managers"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.19"
+requests = "^2.31.0"
+httpx = "^0.24.1"
+psycopg2-binary = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

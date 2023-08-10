@@ -1,2 +1,9 @@
-# py_context_managers
-Concepts practice about context managers in Python 
+# Python Context Managers
+Handy context manager samples in Python 
+
+## Use
+```
+poetry shell
+poetry install
+poetry run python src/main.py
+```
